@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC490C02256DFC97007009C8 /* LunchLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC490C01256DFC97007009C8 /* LunchLibrary.swift */; };
+		EC6054C7256F4CE800619390 /* IconParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC6054C6256F4CE800619390 /* IconParticle.sks */; };
+		EC6054CA256F72DF00619390 /* bgMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC6054C9256F72DF00619390 /* bgMusic.mp3 */; };
 		ECC66223256B86CD009A2C9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC66222256B86CD009A2C9A /* AppDelegate.swift */; };
 		ECC66225256B86CD009A2C9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC66224256B86CD009A2C9A /* SceneDelegate.swift */; };
 		ECC66227256B86CD009A2C9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC66226256B86CD009A2C9A /* ViewController.swift */; };
 		ECC6622A256B86CD009A2C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC66228256B86CD009A2C9A /* Main.storyboard */; };
 		ECC6622C256B86D0009A2C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC6622B256B86D0009A2C9A /* Assets.xcassets */; };
 		ECC6622F256B86D0009A2C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC6622D256B86D0009A2C9A /* LaunchScreen.storyboard */; };
+		ECC66238256B8830009A2C9A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC66237256B8830009A2C9A /* HomeViewController.swift */; };
+		ECC6623B256B88B4009A2C9A /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6623A256B88B4009A2C9A /* LunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC490C01256DFC97007009C8 /* LunchLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchLibrary.swift; sourceTree = "<group>"; };
+		EC6054C6256F4CE800619390 /* IconParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = IconParticle.sks; sourceTree = "<group>"; };
+		EC6054C9256F72DF00619390 /* bgMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgMusic.mp3; sourceTree = "<group>"; };
 		ECC6621F256B86CD009A2C9A /* LunchSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC66222256B86CD009A2C9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECC66224256B86CD009A2C9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		ECC6622B256B86D0009A2C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECC6622E256B86D0009A2C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECC66230256B86D0009A2C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC66237256B8830009A2C9A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ECC6623A256B88B4009A2C9A /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 		ECC66221256B86CD009A2C9A /* LunchSelector */ = {
 			isa = PBXGroup;
 			children = (
+				EC6054C9256F72DF00619390 /* bgMusic.mp3 */,
 				ECC66222256B86CD009A2C9A /* AppDelegate.swift */,
 				ECC66224256B86CD009A2C9A /* SceneDelegate.swift */,
 				ECC66226256B86CD009A2C9A /* ViewController.swift */,
+				ECC66237256B8830009A2C9A /* HomeViewController.swift */,
+				EC6054C6256F4CE800619390 /* IconParticle.sks */,
 				ECC66228256B86CD009A2C9A /* Main.storyboard */,
+				ECC6623A256B88B4009A2C9A /* LunchViewController.swift */,
+				EC490C01256DFC97007009C8 /* LunchLibrary.swift */,
 				ECC6622B256B86D0009A2C9A /* Assets.xcassets */,
 				ECC6622D256B86D0009A2C9A /* LaunchScreen.storyboard */,
 				ECC66230256B86D0009A2C9A /* Info.plist */,
@@ -124,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6054C7256F4CE800619390 /* IconParticle.sks in Resources */,
 				ECC6622F256B86D0009A2C9A /* LaunchScreen.storyboard in Resources */,
+				EC6054CA256F72DF00619390 /* bgMusic.mp3 in Resources */,
 				ECC6622C256B86D0009A2C9A /* Assets.xcassets in Resources */,
 				ECC6622A256B86CD009A2C9A /* Main.storyboard in Resources */,
 			);
@@ -140,6 +157,9 @@
 				ECC66227256B86CD009A2C9A /* ViewController.swift in Sources */,
 				ECC66223256B86CD009A2C9A /* AppDelegate.swift in Sources */,
 				ECC66225256B86CD009A2C9A /* SceneDelegate.swift in Sources */,
+				ECC66238256B8830009A2C9A /* HomeViewController.swift in Sources */,
+				EC490C02256DFC97007009C8 /* LunchLibrary.swift in Sources */,
+				ECC6623B256B88B4009A2C9A /* LunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
